@@ -13,7 +13,7 @@ char* lettergrade(double grade);
 
 int main(void) {
   float number;
-  char *letter = readline("Enter your CMPSC 131 grade:");
+  char *letter = readline("Enter your CMPSC 131 grade: ");
   number = atof(letter);
   char *lg = lettergrade(number);
   printf("Your letter grade for CMPSC 131 is %s.\n",lg);
