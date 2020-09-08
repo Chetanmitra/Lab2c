@@ -6,14 +6,16 @@
 
 
 #include <stdio.h>
+#include <readline/readline.h>
+#include <stdlib.h>
 
 char* lettergrade(double grade);
 
 int main(void) {
   float number;
-  printf("Enter your CMPSC 131 grade:");
-  scanf("%f", &number);
-  char* lg = lettergrade(number);
+  char *letter = readline("Enter your CMPSC 131 grade:");
+  number = atof(letter);
+  char *lg = lettergrade(number);
   printf("Your letter grade for CMPSC 131 is %s.\n",lg);
   return 0;
 }
