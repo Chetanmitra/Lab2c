@@ -3,7 +3,7 @@
 // Collaborator: Kacey Lo kll5550@psu.edu
 // Collaborator: Jiaxia Li jpl6290@psu.edu
 // Collaborator: Kirtan Shah kps5871@psu.edu
-// Section: 11
+// Section: 11R
 // Breakout Room: 6
 
 #include <stdio.h>
